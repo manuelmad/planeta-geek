@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --header-font-color: rgb(117, 105, 105);
+    --nav-left-borders: rgb(24, 24, 24);
+    --background-black: #282828;
+    --background-nav: rgb(40, 40, 40);
+    --planeta-geek-celeste: #03fbfa;
+    --planeta-geek-shadow-celeste: #2e6e70;
+    --planeta-geek-celeste-border: #5fe1e8;
+    --red-notifications: #c40d24;
+    --launches-fucsia: #fe009d;
+    --palid-red: #FF214F;
+    --vivid-red: #cf2e2e;
+    --ss: 1.2rem;
+    --sm: 1.4rem;
+    --md: 1.5rem;
+    --lg: 1.8rem;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    padding-top: 2rem;
+    position: relative;
+}
+
+header span {
+    color: var(--header-font-color);
+}
+
+.header-contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    visibility: hidden;
+}
+
+.header-contact-info div {
+    display: flex;
+    font-size: var(--md);
+}
+
+.header-contact-info .left {
+    justify-content: start;
+    padding-left: 3rem;
+}
+
+.header-contact-info .left p {
+    margin-right: 2rem;
+}
+
+.header-contact-info .right {
+    justify-content: end;
+    padding-right: 3rem;
+}
+
+.header-contact-info .right a,
+.header-contact-info .right span {
+    font-family: 'Merriweather', serif;
+    margin-right: 2rem;
+}
+
+.header-contact-info .right a {
+    color: var(--planeta-geek-shadow-celeste);
+}
+
+.header-nav-bar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: var(--background-nav);
+}
+
+.nav-bar-container {
+    text-align: end;
+}
+
+.nav-bar-container nav ul {
+    display: flex;
+}
+
+.nav-bar-container nav ul li {
+    list-style: none;
+    border-left: var(--nav-left-borders);
+    margin-left: 2rem;
+}
+
+.nav-bar-container nav ul li a {
+    text-decoration: none;
+    font-size: var(--md);
+    font-style: italic;
+    color: var(--white);
+    /* border-left: var(--nav-left-borders); */
+}
+
+#home {
+    color: var(--planeta-geek-celeste);
+}
