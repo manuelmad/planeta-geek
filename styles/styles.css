@@ -31,9 +31,10 @@ html {
 
 header {
     width: 100%;
-    height: 10rem;
+    height: 6rem;
     padding-top: 2rem;
-    position: relative;
+    visibility: hidden;
+    position: absolute;
 }
 
 header span {
@@ -43,12 +44,13 @@ header span {
 .header-contact-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    visibility: hidden;
+    position: relative;
 }
 
 .header-contact-info div {
     display: flex;
     font-size: var(--md);
+    position: absolute;
 }
 
 .header-contact-info .left {
@@ -75,38 +77,179 @@ header span {
     color: var(--planeta-geek-shadow-celeste);
 }
 
-.header-nav-bar {
+/* main nav bar */
+
+.main-nav-bar {
     width: 100%;
-    position: absolute;
-    top: 0;
     height: 6rem;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    background-color: var(--background-nav);
+    margin: 0 auto 0;
+    position: relative;
+    /* display: grid;
+    grid-template-columns: 1fr 3fr; */
+    display: flex;
+    background-color: var(--background-black);
+}
+
+/* .main-nav-bar .logo-container {
+    width: 30%;
+} */
+
+.main-nav-bar img {
+    width: 13.56rem;
+    height: 6rem;
+    margin: auto auto;
 }
 
 .nav-bar-container {
-    text-align: end;
-}
-
-.nav-bar-container nav ul {
+    flex-grow: 1;
+    justify-content: flex-end;
     display: flex;
 }
 
-.nav-bar-container nav ul li {
-    list-style: none;
-    border-left: var(--nav-left-borders);
-    margin-left: 2rem;
+.nav-bar-container .main-menu {
+    height: 100%;
 }
 
-.nav-bar-container nav ul li a {
+.nav-bar-container .main-menu ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.nav-bar-container .main-menu ul li {
+    list-style: none;
+    /* margin-left: 2rem; */
+    position: absolute;
+    visibility: hidden;
+    border-left: 0.3rem solid var(--nav-left-borders);
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar-container .main-menu ul li a {
     text-decoration: none;
     font-size: var(--md);
     font-style: italic;
     color: var(--white);
-    /* border-left: var(--nav-left-borders); */
 }
 
 #home {
     color: var(--planeta-geek-celeste);
+}
+
+.nav-bar-container svg {
+    color: var(--white);
+    border: 0.1rem solid var(--white);
+}
+
+
+
+/* Dropdown Menu */
+
+/* .dropdown-menu-container {
+    position: relative;
+} */
+
+nav #dropdown-list {
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    padding-left: 3rem;
+    background-color: var(--background-black);
+    transition: 0.1s ease all;
+    visibility: hidden;
+}
+
+.dropdown-menu-container:hover > nav #dropdown-list  {
+    top: 6rem;
+    left: 0;
+    visibility: visible;
+}
+/* .dropdown-menu-container svg {
+    color: var(--white);
+    border: 0.1rem solid var(--white);
+} */
+
+/* .dropdown-menu ul {
+    justify-content: flex-end;
+} */
+
+ #dropdown-list li {
+    width: 100%;
+    justify-items: center;
+    list-style: none;
+    line-height: 6rem;
+    display: block;
+}
+
+ #dropdown-list li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--md);
+}
+
+#dropdown-list #home2 {
+    color: var(--planeta-geek-celeste);
+}
+
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    min-height: 18.1rem;
+    max-height: 64.2rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+    max-height: 64.2rem;
+
+	animation: cambio 15s infinite alternate linear;
+}
+
+.hero li {
+	width: 100%;
+	list-style: none;
+}
+
+.hero img {
+    /* width: 89.5rem; */
+    width: 100%;
+    min-height: 18.1rem;
+    max-height: 64.2rem;
+    /* max-width: 1230rem; */
+    /* min-height: 39.5rem; */
+    /* max-height: 69.2rem; */
+    /* opacity: 0.7; */
+    /* margin: 0 auto 0; */
+    /* position: absolute;
+    top: 9rem;
+    z-index: -1; */
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
 }
