@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Planeta Geek</title>
     <link rel="stylesheet" href="./styles/styles.css" type="text/css">
-    <link rel="stylesheet" href="./styles/styles-tablets.css" type="text/css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./styles/styles-tablets.css" type="text/css" media="screen and (min-width: 700px)">
     <link rel="stylesheet" href="./styles/styles-desktop.css" type="text/css" media="screen and (min-width: 1060px)">
 </head>
 <body>
@@ -74,7 +74,7 @@
                             <a href="" id="home">INICIO</a>
                         </li>
                         <li>
-                            <a href="">TENDENCIAS</a>
+                            <a href="#trends">TENDENCIAS</a>
                         </li>
                         <li>
                             <a href="">GAMER TIPS</a>
@@ -91,16 +91,18 @@
                     </ul>
                 </nav>
                 <div class="dropdown-menu-container">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
-                    <nav class="dropdown-menu">
+                    <div class="menu-icon__container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42" id="menu_icon" height="42" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </div>
+                    <nav id="dropdown_menu" class="dropdown-menu">
                         <ul id="dropdown-list">
                             <li>
                                 <a href="" id="home2">INICIO</a>
                             </li>
                             <li>
-                                <a href="">TENDENCIAS</a>
+                                <a href="#trends">TENDENCIAS</a>
                             </li>
                             <li>
                                 <a href="">GAMER TIPS</a>
@@ -121,7 +123,6 @@
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                 </svg> -->
             </div>
-           
         </section>
         <section class="hero">
             <ul>
@@ -130,9 +131,48 @@
                 <li><img src="./styles/assets/imgs/attack-on-titan-banner.jpg" alt=""></li>
                 <li><img src="./styles/assets/imgs/planeta-geek-banner.png" alt=""></li>
             </ul>
-           
+        </section>
+        <section class="trends" id="trends">
+            <div class="title-container">
+                <h2>TENDENCIAS</h2>
+                <p></p>
+            </div>
+            <div class="trending-articles__container">
+                <article class="trend-1__container">
+                    <div class="trend-1">
+                        <div class="img1-container"></div>
+                        <!-- <img src="./styles/assets/imgs/trend1.png" alt=""> -->
+                        <h3>¡SUPER MARIO BROS. LA PELÍCULA, ADELANTA SU FECHA DE ESTRENO!</h3>
+                        <p>¡Tenemos nueva fecha de estreno para Super Mario Bros.! 👀</p>
+                        <p>Mediante sus redes sociales, <a href="https://www.instagram.com/universalpicturesvenezuela/">@universalpicturesvenezuela</a> confirmó que la película de Mario y sus amigos llegará a los cines ahora el 5 se abril.🍄</p>
+                        <p>También confirmaron que en dicha fecha se estrenará en otros 60 países del mundo.</p>
+                        <p>Ya lo sabes, ¡Ese día, el mejor plan es ir a ver Super Mario Bros. La Película!🤩</p>
+                    </div>
+                </article>
+                <article class="trend-2__container">
+                    <div class="trend-2">
+                        <div class="img2-container"></div>
+                        <!-- <img src="./styles/assets/imgs/trend1.png" alt=""> -->
+                        <h3>¡POKÉMON Y NETFLIX SE UNEN PARA ESTRENAR UNA NUEVA SERIE TITULADA "LA CONSERJE POKÉMON"!</h3>
+                        <p>Durante el Pokemon Presents, se ha anunciado una asociación entre Netflix y The Pokemon Company para una nueva serie: La conserje Pokémon.🎥📺</p>
+                        <p>Se trata de una historia nueva y original, y se está realizando en colaboración con Dwarf Animation Studio. 🤝✨</p>
+                        <p>¿Qué te parece esta noticia? Déjanos tu opinión en los comentarios ⬇️📪</p>
+                    </div>
+                </article>
+                <article class="trend-3__container">
+                    <div class="trend-3">
+                        <div class="img3-container"></div>
+                        <!-- <img src="./styles/assets/imgs/trend1.png" alt=""> -->
+                        <h3>¡ELIZABETH OLSEN QUIERE REGRESAR COMO BRUJA ESCARLATA!</h3>
+                        <p>Recientemente, la actriz protagonista de WandaVision ha participado en la Comfest Con de Kuwait. Durante un panel de preguntas y respuestas, Olsen fue preguntada acerca del futuro de su personaje en el MCU, a lo que la actriz comentó:</p>
+                        <p>"¡No sé si puedo compartir algo, pero solo quiero volver!”</p>
+                        <p>Con esto tenemos que Bruja Escarlata estará de regreso, aunque todavía no queda claro qué papel tendrá en la fase 5 ó 6 del UCM. 👀</p>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
     <footer></footer>
+    <script src="./src/index.js"></script>
 </body>
 </html>
