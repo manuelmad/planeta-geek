@@ -23,8 +23,14 @@ html {
     --planeta-geek-celeste-border: #5fe1e8;
     --red-notifications: #c40d24;
     --launches-fucsia: #fe009d;
+    --fucsia-shadow: #BF0076;
     --palid-red: #FF214F;
     --vivid-red: #cf2e2e;
+    --planeta-geek-yellow: #FBFA03;
+    --planeta-geek-purple: #7E03FB;
+    --purple-shadow: #5F02BC;
+    --planeta-geek-green: #80FB03;
+    --planeta-geek-blue: #0304FB;
     --ss: 1.2rem;
     --sm: 1.4rem;
     --md: 1.5rem;
@@ -40,8 +46,12 @@ header {
     position: absolute;
 }
 
-header span {
+header span, header span a {
     color: var(--header-font-color);
+}
+
+header span a {
+    text-decoration: none;
 }
 
 .header-contact-info {
@@ -173,24 +183,7 @@ nav #dropdown-list {
     width: 100%;
     padding-left: 3rem;
     background-color: var(--background-black);
-    /* text-align: start; */
-    /* transition: 0.1s ease all; */
-    /* visibility: hidden; */
 }
-
-/* .dropdown-menu-container:hover > nav #dropdown-list  {
-    top: 6rem;
-    left: 0;
-    visibility: visible;
-} */
-/* .dropdown-menu-container svg {
-    color: var(--white);
-    border: 0.1rem solid var(--white);
-} */
-
-/* .dropdown-menu ul {
-    justify-content: flex-end;
-} */
 
  #dropdown-list li {
     width: 100%;
@@ -220,51 +213,46 @@ nav #dropdown-list {
     min-height: 18.1rem;
     max-height: 64.2rem;
     text-align: center;
-    overflow: hidden;
     background-color: var(--background-sections);
 }
 
-.hero ul {
+.hero .slider-container {
+    overflow: hidden;
+    width: 100%;
+    min-height: 18.1rem;
+    max-height: 64.2rem;
+}
+
+.hero .slider-container ul {
 	display: flex;
 	padding: 0;
 	width: 400%;
+    min-height: 18.1rem;
     max-height: 64.2rem;
 
 	animation: cambio 15s infinite alternate linear;
 }
 
-.hero li {
+.hero .slider-container li {
 	width: 100%;
+    min-height: 18.1rem;
+    max-height: 64.2rem;
+
 	list-style: none;
 }
 
 .hero img {
-    /* width: 89.5rem; */
     width: 100%;
-    min-height: 18.1rem;
-    max-height: 64.2rem;
-    /* max-width: 1230rem; */
-    /* min-height: 39.5rem; */
-    /* max-height: 69.2rem; */
-    /* opacity: 0.7; */
-    /* margin: 0 auto 0; */
-    /* position: absolute;
-    top: 9rem;
-    z-index: -1; */
+    height: 100%;
 }
 
 /* TENDENCIAS */
 
-.trends {
+.trends, .gamer-tips, .launches {
     background-color: var(--background-sections);
     width: 100%;
     padding: 5rem 1rem 2rem;
-    /* text-align: center; */
 }
-
-/* .trending-articles__container article {
-    min-width: 30rem;
-} */
 
 .title-container {
     width: 100%;
@@ -273,9 +261,7 @@ nav #dropdown-list {
     padding: 0 2rem 0;
 }
 
-.title-container h2 {
-    /* width: 20rem; */
-    /* height: 6rem; */
+.trends .title-container h2 {
     background-color: var(--planeta-geek-celeste);
     color: var(--black);
     font-size: var(--xlg);
@@ -285,26 +271,28 @@ nav #dropdown-list {
     padding: 0 2rem 0;
 }
 
-.title-container p {
-    /* height: 6rem; */
+.trends .title-container p {
     flex-grow: 1;
     border-bottom: 0.3rem solid var(--planeta-geek-celeste);
 }
 
-/* .trending-articles__container {
-    display: flex;
-    gap: 1rem;
-} */
 
 .trend-1__container, .trend-2__container, .trend-3__container {
     width: 30rem;
     height: 59rem;
-    /* border-top: 0.3rem solid var(--planeta-geek-celeste); */
     background-color: var(--background-article);
-    /* padding: 0 1rem 0; */
-    margin: 0 auto;
+    margin: 4rem auto 0;
     padding-bottom: 1rem;
 }
+
+.trend-1__container, .trend-2__container, .trend-3__container {
+    overflow-y: auto;
+}
+
+.trend-1__container::-webkit-scrollbar, .trend-2__container::-webkit-scrollbar, .trend-3__container::-webkit-scrollbar {
+    display: none;
+}
+
 
 .trend-1 .img1-container {
     /* width: 100%; */
@@ -313,8 +301,8 @@ nav #dropdown-list {
     background-image: url('./assets/imgs/trend1.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 1.5rem;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
 }
 
 .trend-2 .img2-container {
@@ -324,8 +312,8 @@ nav #dropdown-list {
     background-image: url('./assets/imgs/trend2.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 1.5rem;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
 }
 
 .trend-3 .img3-container {
@@ -335,8 +323,8 @@ nav #dropdown-list {
     background-image: url('./assets/imgs/trend3.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 1.5rem;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
 }
 
 .trend-1 h3, .trend-2 h3, .trend-3 h3 {
@@ -354,12 +342,179 @@ nav #dropdown-list {
     margin-top: 1rem;
     font-size: var(--md);
     padding: 0 2rem 0;
+    line-height: 2.5rem;
 }
 
 .trend-1 a {
     width: 100%;
     color: var(--planeta-geek-celeste-border);
 }
+
+/* GAMER TIPS */
+
+.gamer-tips .title-container h2 {
+    background-color: var(--planeta-geek-purple);
+    color: var(--white);
+    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+}
+
+.gamer-tips .title-container p {
+    flex-grow: 1;
+    border-bottom: 0.3rem solid var(--planeta-geek-purple);
+}
+
+.tip-1__container, .tip-2__container {
+    width: 30rem;
+    height: 59rem;
+    background-color: var(--background-article);
+    margin: 4rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.tip-1__container, .tip-2__container {
+    overflow-y: auto;
+}
+
+.tip-1__container::-webkit-scrollbar, .tip-2__container::-webkit-scrollbar {
+    display: none;
+}
+
+.tip-1 .img1-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/tip1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin-top: 1.5rem; */
+}
+
+.tip-2 .img2-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/tip2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin-top: 1.5rem; */
+}
+
+.tip-1 h3, .tip-2 h3 {
+    width: 100%;
+    color: var(--purple-shadow);
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.tip-1 p, .tip-2 p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.tip-1 a, .tip-2 a {
+    width: 100%;
+    color: var(--purple-shadow);
+}
+
+
+/* LAUNCHES */
+
+.launches .title-container h2 {
+    background-color: var(--launches-fucsia);
+    color: var(--white);
+    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+}
+
+.launches .title-container p {
+    flex-grow: 1;
+    border-bottom: 0.3rem solid var(--launches-fucsia);
+}
+
+.launch-1__container, .launch-2__container, .launch-3__container {
+    width: 30rem;
+    height: 59rem;
+    background-color: var(--background-article);
+    margin: 4rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.launch-1__container, .launch-2__container, .launch-3__container {
+    overflow-y: auto;
+}
+
+.launch-1__container::-webkit-scrollbar, .launch-2__container::-webkit-scrollbar, .launch-3__container::-webkit-scrollbar {
+    display: none;
+}
+
+.launch-1 .img1-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/launch1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
+}
+
+.launch-2 .img2-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/launch2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
+}
+
+.launch-3 .img3-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/launch3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
+}
+
+.launch-1 h3, .launch-2 h3, .launch-3 h3 {
+    width: 100%;
+    color: var(--fucsia-shadow);
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.launch-1 p, .launch-2 p, .launch-3 p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.launch-1 a, .launch-2 a, .launch-3 a {
+    width: 100%;
+    color: var(--fucsia-shadow);
+}
+
+
+/* ANIMACIONES */
 
 @keyframes cambio {
 	0% {margin-left: 0;}

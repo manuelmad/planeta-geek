@@ -1,4 +1,4 @@
-.trending-articles__container {
+.trending-articles__container, .gamer-tips__container, .launches-articles__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;

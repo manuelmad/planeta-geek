@@ -8,7 +8,6 @@ header {
 }
 
 .main-nav-bar {
-    /* position: static; */
     width: 80%;
     position: sticky;
     top: 0;
@@ -25,37 +24,39 @@ header {
     visibility: visible;
 }
 
-/* .dropdown-menu-container {
-    visibility: hidden;
-} */
 
 .nav-bar-container svg {
     visibility: hidden;
 }
 
-main {
-    position: relative;
-    height: 146.2rem;
-}
-
 .hero {
-    /* position: relative; */
+    position: relative;
     height: 64.2rem;
+    z-index: 0;
 }
 
-.hero /*ul*/ {
+.hero .slider-container {
     position: absolute;
-    top: 3rem;
-    /* left: calc(50% - 44.75rem); */
+    overflow-y: visible;
+    height: 64.2rem;
+    top: -3rem;
     z-index: 1;
 }
 
-.trends {
-    position: absolute;
-    top: 67.2rem;
+.hero .slider-container::-webkit-scrollbar {
+    display: none;
 }
 
-.trending-articles__container {
+.hero ul, .hero li {
+    height: 64.2rem;
+}
+
+/* .trends {
+    position: absolute;
+    top: 67.2rem;
+} */
+
+.trending-articles__container, .gamer-tips__container, .launches-articles__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
