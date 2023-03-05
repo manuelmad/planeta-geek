@@ -51,12 +51,12 @@ header {
     height: 64.2rem;
 }
 
-/* .trends {
-    position: absolute;
-    top: 67.2rem;
-} */
+.trends, .gamer-tips, .launches, .notifications, .us {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
 
-.trending-articles__container, .gamer-tips__container, .launches-articles__container {
+.trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }

@@ -31,6 +31,7 @@ html {
     --purple-shadow: #5F02BC;
     --planeta-geek-green: #80FB03;
     --planeta-geek-blue: #0304FB;
+    --planeta-geek-blue-shadow: #0203BC;
     --ss: 1.2rem;
     --sm: 1.4rem;
     --md: 1.5rem;
@@ -97,8 +98,8 @@ header span a {
     height: 6rem;
     margin: 0 auto 0;
     position: relative;
-    /* display: grid;
-    grid-template-columns: 1fr 3fr; */
+    position: sticky;
+    top: 0;
     display: flex;
     background-color: var(--background-black);
 }
@@ -172,10 +173,6 @@ header span a {
 
 /* Dropdown Menu */
 
-/* .dropdown-menu-container {
-    position: relative;
-} */
-
 nav #dropdown-list {
     position: absolute;
     top: 6rem;
@@ -185,7 +182,7 @@ nav #dropdown-list {
     background-color: var(--background-black);
 }
 
- #dropdown-list li {
+#dropdown-list li {
     width: 100%;
     justify-items: center;
     list-style: none;
@@ -193,7 +190,7 @@ nav #dropdown-list {
     display: block;
 }
 
- #dropdown-list li a {
+#dropdown-list li a {
     display: block;
     width: 100%;
     text-decoration: none;
@@ -246,9 +243,7 @@ nav #dropdown-list {
     height: 100%;
 }
 
-/* TENDENCIAS */
-
-.trends, .gamer-tips, .launches {
+.trends, .gamer-tips, .launches, .notifications, .us {
     background-color: var(--background-sections);
     width: 100%;
     padding: 5rem 1rem 2rem;
@@ -260,6 +255,8 @@ nav #dropdown-list {
     height: 6rem;
     padding: 0 2rem 0;
 }
+
+/* TENDENCIAS */
 
 .trends .title-container h2 {
     background-color: var(--planeta-geek-celeste);
@@ -348,6 +345,7 @@ nav #dropdown-list {
 .trend-1 a {
     width: 100%;
     color: var(--planeta-geek-celeste-border);
+    text-decoration: none;
 }
 
 /* GAMER TIPS */
@@ -424,6 +422,7 @@ nav #dropdown-list {
 .tip-1 a, .tip-2 a {
     width: 100%;
     color: var(--purple-shadow);
+    text-decoration: none;
 }
 
 
@@ -511,8 +510,360 @@ nav #dropdown-list {
 .launch-1 a, .launch-2 a, .launch-3 a {
     width: 100%;
     color: var(--fucsia-shadow);
+    text-decoration: none;
 }
 
+
+/* NOTIFICACIONES */
+
+.notifications .title-container h2 {
+    background-color: var(--red-notifications);
+    color: var(--white);
+    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+}
+
+.notifications .title-container p {
+    flex-grow: 1;
+    border-bottom: 0.3rem solid var(--red-notifications);
+}
+
+.notification-1__container, .notification-2__container, .notification-3__container {
+    width: 30rem;
+    height: 59rem;
+    background-color: var(--background-article);
+    margin: 4rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.notification-1__container, .notification-2__container, .notification-3__container {
+    overflow-y: auto;
+}
+
+.notification-1__container::-webkit-scrollbar, .notification-2__container::-webkit-scrollbar, .notification-3__container::-webkit-scrollbar {
+    display: none;
+}
+
+.notification-1 .img1-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/notification1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
+}
+
+.notification-2 .img2-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/notification2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
+}
+
+.notification-3 .img3-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/notification3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
+}
+
+.notification-1 h3, .notification-2 h3, .notification-3 h3 {
+    width: 100%;
+    color: var(--vivid-red);
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.notification-1 p, .notification-2 p, .notification-3 p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.notification-2 ul li {
+    width: 100%;
+    color: var(--vivid-red);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.notification-1 a, .notification-2 a, .notification-3 a {
+    width: 100%;
+    color: var(--vivid-red);
+    text-decoration: none;
+}
+
+
+/* NOSOTROS */
+
+.us .title-container h2 {
+    background-color: var(--planeta-geek-blue);
+    color: var(--white);
+    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+}
+
+.us .title-container p {
+    flex-grow: 1;
+    border-bottom: 0.3rem solid var(--planeta-geek-blue);
+}
+
+.us-1__container, .us-2__container, .us-3__container {
+    width: 30rem;
+    height: 59rem;
+    background-color: var(--background-article);
+    margin: 4rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.us-1__container, .us-2__container, .us-3__container {
+    overflow-y: auto;
+}
+
+.us-1__container::-webkit-scrollbar, .us-2__container::-webkit-scrollbar, .us-3__container::-webkit-scrollbar {
+    display: none;
+}
+
+.us-1 .img1-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/planeta-geek-tv2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
+}
+
+.us-2 .img2-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/planeta-geek-radio2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 1.5rem; */
+}
+
+/* .us-3 .img3-container {
+    width: 30rem;
+    height: 20rem;
+    background-image: url('./assets/imgs/notification3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.us-1 h3, .us-2 h3, .us-3 h3 {
+    width: 100%;
+    color: var(--planeta-geek-blue-shadow);
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.us-1 p, .us-2 p, .us-3 p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.us-1 a, .us-2 a, .us-3 a {
+    width: 100%;
+    color: var(--planeta-geek-blue-shadow);
+    text-decoration: none;
+}
+
+/* GALERÍA */
+
+.galery {
+    width: 100%;
+    min-height: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    background-color: var(--background-sections);
+    padding-top: 8rem;
+}
+
+.galery div {
+    overflow: hidden;
+}
+
+.galery img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .galery1 {
+    min-width: 15rem;
+    min-height: 12rem;
+    background-image: url('./assets/imgs/galery1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* .galery2 {
+    min-width: 15rem;
+    min-height: 12rem;
+    background-image: url('./assets/imgs/galery2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    padding-top: 8rem;
+    background-color: var(--background-sections);
+}
+
+footer section {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.footer-logo-container img {
+    width: 13.56rem;
+    height: 6rem;
+    margin: auto auto;
+}
+
+.social-media-footer h2 {
+    width: 100%;
+    color: var(--planeta-geek-celeste);
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.social-media-footer p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.social-media-footer a {
+    width: 100%;
+    color: var(--planeta-geek-shadow-celeste);
+    text-decoration: none;
+}
+
+.social-media-footer .social-media-logos {
+    padding-top: 3rem;
+}
+
+.social-media-logos a {
+    display: inline-flex;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--white);
+    box-shadow: rgba(228, 200, 200, 0.5) 0 0 15px 0;
+    color: var(--planeta-geek-blue-shadow);
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-logos a svg {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    margin-top: 4rem;
+}
+
+.footer-menu h2 {
+    width: 16rem;
+    height: 3rem;
+    background-color: var(--planeta-geek-celeste);
+    color: var(--black);
+    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+    margin: 2rem 0 2rem 2rem;
+}
+
+#footer-list {
+    margin: 0 auto;
+    padding-left: 3rem;
+    border-bottom: 0.1rem solid var(--background-article);
+}
+
+#footer-list li {
+    width: 100%;
+    justify-items: center;
+    list-style: none;
+    line-height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+#footer-list li a {
+    /* display: block;
+    width: 100%; */
+    text-decoration: none;
+    color: var(--planeta-geek-celeste-border);
+    font-size: var(--md);
+}
+
+#footer-list li svg {
+    color: var(--white);
+    width: 2rem;
+    height: 2rem;
+    font-weight: bold;
+}
+
+.creator {
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: var(--sm);
+}
+
+.creator a {
+    text-decoration: none;
+    color: var(--planeta-geek-green);
+}
 
 /* ANIMACIONES */
 
