@@ -24,10 +24,158 @@ header {
     visibility: visible;
 }
 
-
-.nav-bar-container svg {
-    visibility: hidden;
+.main-nav-bar .logo-container:before {
+    top: 0;
+    left: -10px;
+    display: inline-block;
+    content: "";
+    width: 13px;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--planeta-geek-shadow-celeste);
+    position: absolute;
+    border-right: 3px solid #181818;
+    /* transition: 400ms ease; */
+    z-index: 100000;
 }
+
+.nav-bar-container .main-menu .list-item1 {
+    position: relative;
+}
+
+.nav-bar-container .main-menu .list-item1:before {
+    top: 0;
+    left: -1px;
+    display: inline-block;
+    content: "";
+    width: 0.2rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--nav-left-borders);
+    position: absolute;
+    /* border-right: 3px solid #181818; */
+    /* transition: 400ms ease; */
+    z-index: 100000;
+}
+
+.nav-bar-container .main-menu .list-item2 {
+    position: relative;
+}
+
+.nav-bar-container .main-menu .list-item2:before {
+    top: 0;
+    left: 0;
+    display: inline-block;
+    content: "";
+    width: 0.2rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--nav-left-borders);
+    position: absolute;
+    /* border-right: 3px solid #181818; */
+    /* transition: 400ms ease; */
+    z-index: 100000;
+}
+
+.nav-bar-container .main-menu .list-item3 {
+    position: relative;
+}
+
+.nav-bar-container .main-menu .list-item3:before {
+    top: 0;
+    left: -1px;
+    display: inline-block;
+    content: "";
+    width: 0.2rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--nav-left-borders);
+    position: absolute;
+    /* border-right: 3px solid #181818; */
+    /* transition: 400ms ease; */
+    z-index: 100000;
+}
+
+.nav-bar-container .main-menu .list-item4 {
+    position: relative;
+}
+
+.nav-bar-container .main-menu .list-item4:before {
+    top: 0;
+    left: -1px;
+    display: inline-block;
+    content: "";
+    width: 0.2rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--nav-left-borders);
+    position: absolute;
+    /* border-right: 3px solid #181818; */
+    /* transition: 400ms ease; */
+    z-index: 100000;
+}
+
+.nav-bar-container .main-menu .list-item5 {
+    position: relative;
+}
+
+.nav-bar-container .main-menu .list-item5:before {
+    top: 0;
+    left: -1px;
+    display: inline-block;
+    content: "";
+    width: 0.2rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--nav-left-borders);
+    position: absolute;
+    /* border-right: 3px solid #181818; */
+    /* transition: 400ms ease; */
+    z-index: 100000;
+}
+
+.nav-bar-container .main-menu .list-item6 {
+    position: relative;
+}
+
+.nav-bar-container .main-menu .list-item6:before {
+    top: 0;
+    left: -1px;
+    display: inline-block;
+    content: "";
+    width: 0.2rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--nav-left-borders);
+    position: absolute;
+    /* border-right: 3px solid #181818; */
+    /* transition: 400ms ease; */
+    z-index: 100000;
+}
+
+.nav-bar-container .main-menu .list-item6:after {
+    top: 0;
+    right: -0.5rem;
+    display: inline-block;
+    content: "";
+    width: 0.9rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--background-black);
+    position: absolute;
+    border-right: 3px solid var(--nav-left-borders);
+    /* transition: 400ms ease; */
+    z-index: 100000;
+}
+
+.dropdown-menu-container {
+    display: none;
+}
+
+
+/* .nav-bar-container svg {
+    visibility: hidden;
+} */
 
 .hero {
     position: relative;
@@ -56,7 +204,25 @@ header {
     padding-right: 7rem;
 }
 
+.trends .title-container h2:before,
+.gamer-tips .title-container h2:before,
+.launches .title-container h2:before,
+.notifications .title-container h2:before,
+.us .title-container h2:before {
+    left: 8.5rem;
+}
+
 .trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social-media-logos a {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.social-media-logos a svg {
+    width: 2.8rem;
+    height: 2.8rem;
 }
