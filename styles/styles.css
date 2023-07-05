@@ -222,7 +222,7 @@ nav #dropdown-list {
 .hero {
     width: 100%;
     min-height: 18.1rem;
-    max-height: 64.2rem;
+    /* max-height: 64.2rem; */
     text-align: center;
     background-color: var(--background-sections);
 }
@@ -231,7 +231,7 @@ nav #dropdown-list {
     overflow: hidden;
     width: 100%;
     min-height: 18.1rem;
-    max-height: 64.2rem;
+    /* max-height: 64.2rem; */
 }
 
 .hero .slider-container ul {
@@ -239,7 +239,7 @@ nav #dropdown-list {
 	padding: 0;
 	width: 400%;
     min-height: 18.1rem;
-    max-height: 64.2rem;
+    /* max-height: 64.2rem; */
 
 	animation: cambio 15s infinite alternate linear;
 }
@@ -247,7 +247,7 @@ nav #dropdown-list {
 .hero .slider-container li {
 	width: 100%;
     min-height: 18.1rem;
-    max-height: 64.2rem;
+    /* max-height: 64.2rem; */
 
 	list-style: none;
 }
@@ -305,19 +305,19 @@ nav #dropdown-list {
 
 .trend-1__container, .trend-2__container, .trend-3__container {
     width: 30rem;
-    height: 59rem;
+    min-height: 45rem;
     background-color: var(--background-article);
     margin: 4rem auto 0;
     padding-bottom: 1rem;
 }
 
-.trend-1__container, .trend-2__container, .trend-3__container {
+/* .trend-1__container, .trend-2__container, .trend-3__container {
     overflow-y: auto;
 }
 
 .trend-1__container::-webkit-scrollbar, .trend-2__container::-webkit-scrollbar, .trend-3__container::-webkit-scrollbar {
     display: none;
-}
+} */
 
 
 /* .trend-1 .img1-container {
@@ -426,7 +426,7 @@ nav #dropdown-list {
     line-height: 2.5rem;
 }
 
-.trend-1 a {
+.trend-1 a, .trend-2 a, .trend-3 a {
     width: 100%;
     color: var(--planeta-geek-celeste-border);
     text-decoration: none;
@@ -464,19 +464,19 @@ nav #dropdown-list {
 
 .tip-1__container, .tip-2__container {
     width: 30rem;
-    height: 59rem;
+    min-height: 45rem;
     background-color: var(--background-article);
     margin: 4rem auto 0;
     padding-bottom: 1rem;
 }
 
-.tip-1__container, .tip-2__container {
+/* .tip-1__container, .tip-2__container {
     overflow-y: auto;
 }
 
 .tip-1__container::-webkit-scrollbar, .tip-2__container::-webkit-scrollbar {
     display: none;
-}
+} */
 
 /* .tip-1 .img1-container {
     width: 30rem;
@@ -593,19 +593,19 @@ nav #dropdown-list {
 
 .launch-1__container, .launch-2__container, .launch-3__container {
     width: 30rem;
-    height: 59rem;
+    min-height: 45rem;
     background-color: var(--background-article);
     margin: 4rem auto 0;
     padding-bottom: 1rem;
 }
-
+/* 
 .launch-1__container, .launch-2__container, .launch-3__container {
     overflow-y: auto;
 }
 
 .launch-1__container::-webkit-scrollbar, .launch-2__container::-webkit-scrollbar, .launch-3__container::-webkit-scrollbar {
     display: none;
-}
+} */
 
 /* .launch-1 .img1-container {
     width: 30rem;
@@ -753,19 +753,19 @@ nav #dropdown-list {
 
 .notification-1__container, .notification-2__container, .notification-3__container {
     width: 30rem;
-    height: 59rem;
+    min-height: 45rem;
     background-color: var(--background-article);
     margin: 4rem auto 0;
     padding-bottom: 1rem;
 }
 
-.notification-1__container, .notification-2__container, .notification-3__container {
+/* .notification-1__container, .notification-2__container, .notification-3__container {
     overflow-y: auto;
 }
 
 .notification-1__container::-webkit-scrollbar, .notification-2__container::-webkit-scrollbar, .notification-3__container::-webkit-scrollbar {
     display: none;
-}
+} */
 
 /* .notification-1 .img1-container {
     width: 30rem;
@@ -921,19 +921,19 @@ nav #dropdown-list {
 
 .us-1__container, .us-2__container, .us-3__container {
     width: 30rem;
-    height: 59rem;
+    min-height: 45rem;
     background-color: var(--background-article);
     margin: 4rem auto 0;
     padding-bottom: 1rem;
 }
 
-.us-1__container, .us-2__container, .us-3__container {
+/* .us-1__container, .us-2__container, .us-3__container {
     overflow-y: auto;
 }
 
 .us-1__container::-webkit-scrollbar, .us-2__container::-webkit-scrollbar, .us-3__container::-webkit-scrollbar {
     display: none;
-}
+} */
 
 /* .us-1 .img1-container {
     width: 30rem;
@@ -997,7 +997,7 @@ nav #dropdown-list {
 
 .us-1 h3, .us-2 h3, .us-3 h3 {
     width: 100%;
-    color: var(--planeta-geek-blue-shadow);
+    color: var(--planeta-geek-blue);
     margin-top: 1rem;
     font-size: var(--lg);
     padding: 1rem 2rem 0;
@@ -1015,7 +1015,7 @@ nav #dropdown-list {
 
 .us-1 a, .us-2 a, .us-3 a {
     width: 100%;
-    color: var(--planeta-geek-blue-shadow);
+    color: var(--planeta-geek-blue);
     text-decoration: none;
 }
 
