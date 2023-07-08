@@ -3,15 +3,16 @@ export const trends = [
         type: "trend",
         imgUrl: './styles/assets/imgs/trend1.png',
         description: `
-            <h3>¡SUPER MARIO BROS. LA PELÍCULA, ADELANTA SU FECHA DE ESTRENO!</h3>
-            <p>¡Tenemos nueva fecha de estreno para Super Mario Bros.! 👀</p>
-            <p>Mediante sus redes sociales, <a href="https://www.instagram.com/universalpicturesvenezuela/" target="_blank">@universalpicturesvenezuela</a> confirmó que la película de Mario y sus amigos llegará a los cines ahora el 5 se abril.🍄</p>
-            <p>También confirmaron que en dicha fecha se estrenará en otros 60 países del mundo.</p>
-            <p>Ya lo sabes, ¡Ese día, el mejor plan es ir a ver Super Mario Bros. La Película!🤩</p>
+            <h3>¡18 AÑOS DESPUÉS, JENNIFER GARNER REGRESA COMO ELEKTRA PARA DEADPOOL 3!</h3>
+            <p>¡Esto no lo vi venir! 😳</p>
+            <p>Según THR, la actriz Jennifer Garner regresará como Elektra para la película de Deadpool 3. 😱</p>
+            <p>Garner interpretó este personaje en la película de Daredevil de 2003 y luego en 2005 en su película en solitario.</p>
+            <p>Según rumores, la aparición de esta versión de Elektra será un cameo de unos cuantos minutos dentro de la película.
+            </p>
         `,
         short: `
-            <h3>¡SUPER MARIO BROS. LA PELÍCULA, ADELANTA SU FECHA DE ESTRENO!</h3>
-            <p>¡Tenemos nueva fecha de estreno para Super Mario Bros.! 👀</p>
+            <h3>¡18 AÑOS DESPUÉS, JENNIFER GARNER REGRESA COMO ELEKTRA PARA DEADPOOL 3!</h3>
+            <p>¡Esto no lo vi venir! 😳</p>
             <p><a id="link_trend1" href="../details/details.html">Leer más...</a>
         `
     },
@@ -19,15 +20,18 @@ export const trends = [
         type: "trend",
         imgUrl: './styles/assets/imgs/trend2.png',
         description: `
-            <h3>¡POKÉMON Y NETFLIX SE UNEN PARA ESTRENAR UNA NUEVA SERIE TITULADA "LA CONSERJE POKÉMON"!</h3>
-            <p>Durante el Pokemon Presents, se ha anunciado una asociación entre Netflix y The Pokemon Company para una nueva serie: La conserje Pokémon.🎥📺</p>
-            <p>Hasta ahora, no sabemos muchos detalles sobre esta serie. Sabemos que tiene lugar en un complejo Pokémon de algún tipo y sigue a una joven conserje Pokémon, Haru, y los diversos Pokémon que visitan el complejo. También sabemos que será una serie en stop-motion. 🤯🎞️</p>
-            <p>Se trata de una historia nueva y original, y se está realizando en colaboración con Dwarf Animation Studio. 🤝✨</p>
-            <p>¿Qué te parece esta noticia? Déjanos tu opinión en los comentarios ⬇️📪</p>
+            <h3>¡"NARUTO" REGRESA CON UN ANIMÉ ESPECIAL EN CONMEMORACIÓN DE SU 20° ANIVERSARIO!</h3>
+            <p>¿¡El regreso de Naruto Uzumaki!? 🤯🍿</p>
+            <p>En octubre del 2022, "Naruto" celebró su vigésimo aniversario; sin embargo, no fue hasta el 2023 que empezaron a caer los especiales. 👀🤔</p>
+            <p>En marzo de este año se anunció que "Naruto" iba a volver a la pantalla chica con cuatro nuevos episodios especiales, lOs cuales se conectarán con "Naruto" y "Naruto Shippuden" 💢👏🏻</p>
+            <p>Estos nuevos capítulos se estrenarán el próximo 3 de septiembre, pero SOLAMENTE en Japón</p>
+            <p>Aún faltan detalles que confirmen de qué manera llegarán los episodios, si semanalmente o todos los cuatro episodios de una vez. 🎞🤔</p>
+            <p>Asimismo, se estrenará un nuevo manga spin off sobre Minato Namikaze, padre de Naruto y cuarto Hokage. 👏🏻🚨</p>
+            <p>¿Qué te pareció esta noticia? ¿Emocionado/a? 👇🏻💬</p>
         `,
         short: `
-            <h3>¡POKÉMON Y NETFLIX SE UNEN PARA ESTRENAR UNA NUEVA SERIE TITULADA "LA CONSERJE POKÉMON"!</h3>
-            <p>Durante el Pokemon Presents, se ha anunciado una asociación ...</p>
+            <h3>¡"NARUTO" REGRESA CON UN ANIMÉ ESPECIAL EN CONMEMORACIÓN DE SU 20° ANIVERSARIO!</h3>
+            <p>¿¡El regreso de Naruto Uzumaki!? 🤯🍿</p>
             <p><a id="link_trend2" href="../details/details.html">Leer más...</a>
         `
     },
@@ -35,21 +39,15 @@ export const trends = [
         type: "trend",
         imgUrl: './styles/assets/imgs/trend3.png',
         description: `
-            <h3>¡ELIZABETH OLSEN QUIERE REGRESAR COMO BRUJA ESCARLATA!</h3>
-            <p>Recientemente, la actriz protagonista de WandaVision ha participado en la Comfest Con de Kuwait. Durante un panel de preguntas y respuestas, Olsen fue preguntada acerca del futuro de su personaje en el MCU, a lo que la actriz comentó:</p>
-            <p>"¡No sé si puedo compartir algo, pero solo quiero volver!”</p>
-            <p>Con esto tenemos que Bruja Escarlata estará de regreso, aunque todavía no queda claro qué papel tendrá en la fase 5 ó 6 del UCM. 👀</p>
-            <p>¿Cómo te gustaría ver el regreso de Bruja Escarlata?
-                <br><br>
-                ➡️ Heroína<br>
-                ➡️ Villana<br>
-                ➡️ Anti-héroe<br><br>
-                ¡Te leemos! 👀
-            </p>
+            <h3>¡SMOKE, RAIN, CYRAX, SEKTOR Y FROST SE ANUNCIA COMO NUEVOS PELEADORES EN EL MK1!</h3>
+            <p>¡Tenemos nuevos peleadores para el MK1! 💀</p>
+            <p>Smoke, Rain, Cyrax, Sektor y Frost se anunciaron como nuevos personajes jugables en el juego que llegará el 19 de septiembre de este año.</p>
+            <p>Ellos fueron revelados hoy durante un direct y en el trailer hicieron especial énfasis en Smoke, quien tendrá una hermandad junto con Scorpion y Sub-Zero. 👀</p>
+            <p>¿Cuál de estos personajes te gustó más de ver?</p>
         `,
         short: `
-            <h3>¡ELIZABETH OLSEN QUIERE REGRESAR COMO BRUJA ESCARLATA!</h3>
-            <p>Recientemente, la actriz protagonista de WandaVision ha participado en la Comfest Con de Kuwait...</p>
+            <h3>¡SMOKE, RAIN, CYRAX, SEKTOR Y FROST SE ANUNCIA COMO NUEVOS PELEADORES EN EL MK1!</h3>
+            <p>¡Tenemos nuevos peleadores para el MK1! 💀</p>
             <p><a id="link_trend3" href="../details/details.html">Leer más...</a>
         `,
     }
@@ -60,6 +58,39 @@ export const gamerTips = [
         type: "tip",
         imgUrl: './styles/assets/imgs/tip1.png',
         description: `
+            <h3>¿Sabías que hubo un videojuego donde Spider-Man se transformaba en Batman?🤔🧐</h3>
+            <p>En esta sección de Gamer Tips hablaremos acerca de "The Revenge of Shinobi". Un videojuego de acción y plataformas que fue lanzado en diciembre de 1989. 🎮🔙</p>
+            <p>Capaz muchos de ustedes no conocen este videojuego, pero la verdad es que nos brindó uno de los crossovers más locos en la historia de los videojuegos. 💥👀</p>
+            <p>Cuando nos tocaba enfrentar al Jefe de la zona del barrio chino, este mismo era Spider-Man y además de esto, al derrotarlo se transformaba automáticamente en Batman. 🤯🤯</p>
+            <p>Además de esto, dos personajes icónicos también dijeron presente: Rambo, Godzila, entre otros. 🤩🙌</p>
+            <p>¿Qué te parece este Crossover? Dejános tu opinión en los comentarios ⬇️📪 aquí: <a href="https://www.instagram.com/p/CsWcNmRLdr_/" target="_blank">Instagram</a></p>
+        `,
+        short: `
+            <h3>¿Sabías que hubo un videojuego donde Spider-Man se transformaba en Batman?🤔🧐</h3>
+            <p>En esta sección de Gamer Tips hablaremos acerca de "The Revenge of Shinobi". Un videojuego de acción...</p>
+            <p><a id="link_tip1" href="../details/details.html">Leer más...</a>
+        `
+    },
+    {
+        type: "tip",
+        imgUrl: './styles/assets/imgs/tip2.png',
+        description: `
+            <h3>¿Sabías que Link tiene el cabello de color rosado en un juego?</h3>
+            <p>¡Esta semana sale el Tears of the Kingdom y ya calentamos motores! 🔥</p>
+            <p>El 12 de mayo tendremos en el mercado el Zelda: Tears of The Kingdom, y para ir preparando su lanzamiento te dejamos un dato que quizás no conocías de Link. 👀</p>
+            <p>Sí, en el videojuego A Link to the Past, nuestro protagonista tuvo el cabello rosado. 😳</p>
+            <p>Visita nuestra publicación en <a href="https://www.instagram.com/p/Cr_B0z7ODlq/" target="_blank">Instagram</a> para conocer más en detalle esta curiosidad </p>
+        `,
+        short: `
+            <h3>¿Sabías que Link tiene el cabello de color rosado en un juego?</h3>
+            <p>¡Esta semana sale el Tears of the Kingdom y ya calentamos motores! 🔥</p>
+            <p><a id="link_tip2" href="../details/details.html">Leer más...</a>
+        `
+    },
+    {
+        type: "tip",
+        imgUrl: './styles/assets/imgs/tip3.png',
+        description: `
             <h3>¿Sabías que Devil May Cry originalmente iba a ser el RE4?</h3>
             <p>Tras el lanzamiento de RE 3: Nemesis, Capcom decidió empezar a producir la cuarta entrega de la franquicia con el productor Hideki Kamiya a la cabeza del proyecto.</p>
             <p>Pero la idea que tenía Kamiya para RE4 era muy diferente, ya que quería de hecho una acción más frenética con gran protagonismo de las armas de fuego, e incluso la presencai de espadas.</p>
@@ -68,24 +99,7 @@ export const gamerTips = [
         short: `
             <h3>¿Sabías que Devil May Cry originalmente iba a ser el RE4?</h3>
             <p>Tras el lanzamiento de RE 3: Nemesis, Capcom decidió...</p>
-            <p><a id="link_tip1" href="../details/details.html">Leer más...</a>
-        `
-    },
-    {
-        type: "tip",
-        imgUrl: './styles/assets/imgs/tip2.png',
-        description: `
-            <h3>¿Sabías que Call of Duty tiene un personaje venezolano?</h3>
-            <p>¡Venezuela dijo presente hasta en Call of Duty! 🎮🇻🇪</p>
-            <p>Sí, en Call of Duty Modern Warfare de 2019, Mara, un personaje de origen Venezolano, hizo su aparición y luego también se podía jugar con ella en títulos como Warzone y Call of Duty Mobile. 🔥</p>
-            <p>Peeeeero, a pesar de ser Venezolana en el juego, en la vida real la actriz que le dio vida es de nacionalidad estadounidense. 🥴</p>
-            <p>¿Sabías este dato? 🤔</p>
-            <p>¡Te leemos en los comentarios en nuestra cuenta de <a href="https://www.instagram.com/p/CnfuW19tZ30/" target="_blank">Instagram.</a>! 👀</p>
-        `,
-        short: `
-            <h3>¿Sabías que Call of Duty tiene un personaje venezolano?</h3>
-            <p>¡Venezuela dijo presente hasta en Call of Duty! 🎮🇻🇪</p>
-            <p><a id="link_tip2" href="../details/details.html">Leer más...</a>
+            <p><a id="link_tip3" href="../details/details.html">Leer más...</a>
         `
     }
 ];
@@ -95,15 +109,18 @@ export const launches = [
         type: "launch",
         imgUrl: './styles/assets/imgs/launch1.png',
         description: `
-            <h3>¡Resident Evil: Death Island, presenta su primer teaser tráiler!</h3>
-            <p>Resident Evil: Death Island es la próxima película de animación CGI de la saga Resident Evil. Vuelven Chris Redfield, Leon S. Kennedy y Jill Valentine.🤩💥</p>
-            <p>La trama de la película parte en que Chris Redfield está investigando un brote de zombis en San Francisco y el origen de la infección no puede ser identificado. Lo único que tienen en común las víctimas es que visitaron la isla de Alcatraz recientemente. Siguiendo esa pista, Chris y su equipo se dirigen a la isla, donde un nuevo horror les espera.🌉😱</p>
-            <p>También, una de las novedades de esta película es la presencia de Jill Valentine. No solo es la primera vez que aparece en una película CGI de la saga, sino que además se muestra con el aspecto que ya vimos en Resident Evil 3 Remake.😱👌</p>
-            <p>Si quieres ver el tráiler de esta nueva producción, visita nuestra cuenta de <a href="https://www.instagram.com/p/CoX25TkLHWf/" target="_blank">Instagram.</a></p>
+            <h3>¡Nuevo tráiler de "Resident Evil: Death Island! 🚨👏🏻</h3>
+            <p>La cuarta película animada de la querida franquicia de terror y supervivencia presentó un nuevo tráiler. 🧟‍♂️👀</p>
+            <p>El avance revela cómo todos los héroes clásicos de Resident Evil han estado luchando contra el bioterrorismo en todo el mundo desde la última vez que nos cruzamos con ellos. 🍿🤯</p>
+            <p>Para empezar, Jill Valentine ha estado trabajando junto a Chris Redfield  para evitar que nuevas cepas del T-Virus se desaten en el mundo. 🤔🎞</p>
+            <p>El avance también los muestra formando equipo con Rebecca Chambers. El trío se cruza con Claire Redfield, que aparentemente está investigando una criatura marina mutada. 🌊🧟‍♂️</p>
+            <p>El equipo recién formado se completa con la incorporación de Leon S. Kenedy, quien también lidera su propia investigación, aunque está tratando de resolver la desaparición de un científico. 🍿🔥</p>
+            <p>Resident Evil: Death Island, estará disponible en Blu-Ray, DVD y formato digital a partir del 25 de julio. 👀🎮</p>
+            <p>¿Qué te parece este proyecto? 💬👇🏻 <a href="https://www.instagram.com/p/CtJ8IHoNPbV/" target="_blank">Instagram.</a></p>
         `,
         short: `
-            <h3>¡Resident Evil: Death Island, presenta su primer teaser tráiler!</h3>
-            <p>Resident Evil: Death Island es la próxima película de animación CGI de la saga Resident Evil...</p>
+            <h3>¡Nuevo tráiler de "Resident Evil: Death Island! 🚨👏🏻</h3>
+            <p>La cuarta película animada de la querida franquicia de terror y supervivencia presentó un nuevo tráiler. 🧟‍♂️👀</p>
             <p><a id="link_launch1" href="../details/details.html">Leer más...</a>
         `
     },
@@ -111,16 +128,16 @@ export const launches = [
         type: "launch",
         imgUrl: './styles/assets/imgs/launch2.png',
         description: `
-            <h3>¡La película de Calabozos y Dragones presenta un nuevo tráiler!</h3>
-            <p>Se estrenó un nuevo adelanto de Calabozos y Dragones: Honor entre ladrones, una producción cinematográfica que promete restablecer la grandeza de esta aventura en la pantalla grande.🎞️🍿</p>
-            <p>El auge de Calabozos y Dragones se dio en los años ochenta, pero ahora, en tiempos más recientes hemos visto de nuevo un interés en este juego a través de redes sociales. Cada vez son más las personas que se unen y desarrollan historias de fantasía o de muchos otros géneros que se adaptan bien al rol gaming. 🤩🎮</p>
-            <p>Esta película cuenta con las actuaciones de Chris Pine, Michelle Rodríguez, Justice Smith, Sophia Lillis y Hugh Grant. ✨🎥</p>
-            <p>El film había sido largamente esperado y de acuerdo con el calendario oficial llegará el 2 de marzo a los cines.📅🎟️</p>
-            <p>Si quieres ver el tráiler, aquí te dejamos el enlace a nuestra cuenta de <a href="https://www.instagram.com/p/CnxAPRerTkz/" target="_blank">Instagram.</a></p>
+            <h3>¡La nueva serie de Silent Hill cada vez más cerca! 👏🏻🚨</h3>
+            <p>Uno de los proyectos nuevos de Konami "Silent Hill: Ascension", ha publicado su nuevo trailer en la que podemos ver un poco más de la serie interactiva. 🤯🍿</p>
+            <p>La oscuridad y el terror se apoderan del tráiler, en lo que parece ser un producto "muy Silent Hill". 🎞🌘</p>
+            <p>Según la descripción oficial del video, Silent Hill: Ascension es "una serie de Genvid Interactive Streaming que presenta a múltiples personajes principales de todo el mundo mientras se enfrentan a los horrores desatados en sus comunidades". 🙌🏻🤔</p>
+            <p>"Silent Hill: Ascension" dará comienzo a finales de 2023 y contará con "momentos diarios imperdibles de la historia en directo, en los que cada día será diferente al anterior en función de las acciones del público." 📅📼</p>
+            <p>¿Qué opinas de este nuevo proyecto? ¿Lo verás? 🤔💬👇🏻 <a href="https://www.instagram.com/p/Cs416c3Pgi5/" target="_blank">Instagram.</a></p>
         `,
         short: `
-            <h3>¡La película de Calabozos y Dragones presenta un nuevo tráiler!</h3>
-            <p>Se estrenó un nuevo adelanto de Calabozos y Dragones: Honor entre ladrones...</p>
+            <h3>¡La nueva serie de Silent Hill cada vez más cerca! 👏🏻🚨</h3>
+            <p>Uno de los proyectos nuevos de Konami "Silent Hill: Ascension", ha publicado...</p>
             <p><a id="link_launch2" href="../details/details.html">Leer más...</a>
         `
     },
@@ -128,15 +145,15 @@ export const launches = [
         type: "launch",
         imgUrl: './styles/assets/imgs/launch3.png',
         description: `
-            <h3>¡La película de Gran Turismo muestra su primer teaser!</h3>
-            <p>Sony Pictures ha apostado fuerte por la fiebre de los estudios cinematográficos en relación a la adaptación de videojuegos de éxito en las diferentes plataformas existentes como: The Last of Us, God of War, entre otros.🎮📽️</p>
-            <p>Se describe a la película de Gran Turismo como una obra hecha para el cine, repleta de acción conmovedora. Según la sinopsis oficial, el filme cuenta "cómo un adolescente que jugaba a Gran Turismo en simulador cumplió su sueño. En el juego ganó una serie de competiciones y le sirvió de trampolín para acabar convirtiéndose en un piloto profesional". 🏁💨</p>
-            <p>De modo que la película de Gran Turismo irá, en cierto modo, de cumplir sueños y de cómo a veces estos se consiguen por caminos que no siempre son los más comunes.🏞️✨</p>
-            <p>El próximo 11 de agosto se estrenará el largometraje y pueden ver el teaser tráiler que se presentó visitando el siguiente enlace de <a href="https://www.instagram.com/p/CnDWQMZL9a3/" target="_blank">Planeta Geek.</a></p>
+            <h3>Spider-man Across the Spider-Verse presenta su tráiler final!🕷️💥</h3>
+            <p>Gracias al equipo de Sony Pictures hemos tenido la ocasión de ver un nuevo y breve teaser de Spider-Man Cruzando el Multiverso, con Miles Morales de protagonista, junto a las diferentes versiones que nos encontraremos del Spider-Verse.🕸️😎</p>
+            <p>Gracias a este nuevo tráiler internacional de Spider-Man: Cruzando el Multiverso, podemos disfrutar de bastante metraje inédito, con un especial énfasis en la acción y los combates en los que se verá inmerso Miles Morales, ya sea contra el villano del filme u otros Spider-Man, especialmente Miguel O'Hara o Spider-Man 2099.🥊🎥</p>
+            <p>Se confirma la duración total de Spider-Man: Cruzando el Multiverso, convirtiéndose en uno de los largometrajes animados más largos de la historia del cine, con un total de 140 minutos, o lo que es lo mismo, 2 horas y 20 minutos.🤯⌚</p>
+            <p>Spider-Man: Cruzando el Multiverso se estrena en cines el próximo 2 de junio de 2023.🤩📅</p>
         `,
         short: `
-            <h3>¡La película de Gran Turismo muestra su primer teaser!</h3>
-            <p>Sony Pictures ha apostado fuerte por la fiebre de los estudios cinematográficos en relación a la adaptación de videojuegos...</p>
+            <h3>Spider-man Across the Spider-Verse presenta su tráiler final!🕷️💥</h3>
+            <p>Gracias al equipo de Sony Pictures hemos tenido la ocasión de ver...</p>
             <p><a id="link_launch3" href="../details/details.html">Leer más...</a>
         `,
     }
@@ -147,15 +164,17 @@ export const notifications = [
         type: "notification",
         imgUrl: './styles/assets/imgs/notification1.png',
         description: `
-            <h3>¡La e-vinotinto se mantiene en la primera división de las clasificatorias de la e-natios!</h3>
-            <p>Nuestra selección nacional de eSports, la <a href="https://www.instagram.com/fvfesports/">@fvfesports</a>, seguirá en la primera división de las clasificatorias de la e-Nations. 🎮🔥</p>
-            <p>Después de dos días de pura intensidad, donde la selección jugó contra sus similares de Argentina, Colombia, Perú y Paraguay, lograron mantenrse en la división ocupando la tercera posición de la tabla con un total de 13 puntos. 🇻🇪🎙️</p>
-            <p>Ahora, la selección tendrá que esperar al 2 y 3 de Marzo, cuando se dispute la tercera semana de las clasificatorias para la e-Nations.👀🤩</p>
-            <p>Vamos Venezuela!! 🇻🇪🎮</p>
+            <h3>¡FUSION PARTICIPARÁ EN EL VALORANT AMERICAS ASCENSION 2023!</h3>
+            <p>¡<a href="https://www.instagram.com/fusionfsgg/" target="_blank">@fusionfsgg</a> jugará la Valorant Americas Ascension 2023! 👏🏻🔥</p>
+            <p>A partir de hoy comenzará el Americas Ascension 2023, en el que competirán los seis mejores equipos de Latinoamérica por un puesto en el VCT Americas. 👀🚨</p>
+            <p>Previo a esta zona, se jugaron las clasificatorias para las zonas de Norteamérica, Sudamérica y Brasil.🌎🕹</p>
+            <p>Los equipos que ganaron su boleto a la Americas Ascension son The Union y 00 Nation como representantes brasileños, M80 y The Guard desde Estados Unidos, 9z de Argentina y Fusion de Venezuela 🎮🏆</p>
+            <p>Los equipos que ganen sus respectivos grupos clasificarán directamente a semifinales del cuadro superior, mientras que segundos y terceros se cruzarán en cuartos de final. 📅🍿</p>
+            <p>¡El mayor de los éxitos, <a href="https://www.instagram.com/fusionfsgg/" target="_blank">@fusionfsgg</a>! 🔥🙌🏻</p>
         `,
         short: `
-            <h3>¡La e-vinotinto se mantiene en la primera división de las clasificatorias de la e-natios!</h3>
-            <p>Nuestra selección nacional de eSports, la <a href="https://www.instagram.com/fvfesports/">@fvfesports</a>, seguirá en la primera división de las clasificatorias de la e-Nations. 🎮🔥</p>
+            <h3>¡FUSION PARTICIPARÁ EN EL VALORANT AMERICAS ASCENSION 2023!</h3>
+            <p>¡<a href="https://www.instagram.com/fusionfsgg/" target="_blank">@fusionfsgg</a> jugará la Valorant Americas Ascension 2023! 👏🏻🔥</p>
             <p><a id="link_notification1" href="../details/details.html">Leer más...</a>
         `
     },
@@ -163,25 +182,17 @@ export const notifications = [
         type: "notification",
         imgUrl: './styles/assets/imgs/notification2.png',
         description: `
-            <h3>¡Ya comenzó el Valorant Champions Tour (VCT) y tenemos presencia Venezolana!</h3>
-            <p>Ya arranco la escena competitiva de Valorant de 2023 y para este año anunciaron varios cambios.👀👀</p>
-            <p>En Latinoamérica se organizarán dos diferentes ligas:</p>
-            <ul>
-                <li>VALORANT Challengers Latam Norte x ACE</li>
-                <li>VALORANT Challengers Latam Sur x FiRe</li>
-            </ul>
-            <p>Cada uno de estos Challengers tendrá seis equipos que buscarán su clasificación al Torneo de Ascenso al VCT Américas (Ascension). 🔥🔫</p>
-            <p>Desde ayer se está jugando el Open Qualifier, donde en la región de Latam Norte tenemos presencia venezolana en los siguientes equipos:</p>
-            <p><a href="https://www.instagram.com/fusionfsgg/">@fusionfsgg</a></p>
-            <p><a href="https://www.instagram.com/careperrosesports/">@soulfreelatam</a></p>
-            <p><a href="https://www.instagram.com/soulfreelatam/"></a></p>
-            <p>Esta Open Qualifier comenzó el 20 de enero y culminará mañana, 22 de enero de 2021.⌚⌚</p>
-            <p>Les deseamos suerte a todos nuestros representantes en Valorant!! 🇻🇪🇻🇪</p>
-            <p>Si quieres conocer los roster de los equipos con presencia venezolana, visítanos en ➡️ <a href="https://www.instagram.com/p/CnsNbTjPhC5/">Instagram</a></p>
+            <h3>¡CARLOS ÁLVAREZ REPRESENTARÁ A VENEZUELA EN LA SEMANA OLÍMPICA!</h3>
+            <p>¡Un venezolano estará en la Semana Olímpica de los E-sports! 🔥🇻🇪</p>
+            <p>El día de ayer estuvimos conversando con Carlos Álvarez (<a href="https://www.instagram.com/theproductmanager/" target="_blank">@theproductmanager</a>), quien es un Sim racer profesional y estará representando a Venezuela en la Semana Olímpica. 🤯🙌🏻</p>
+            <p>Carlos nos comentó cómo ha sido todo el proceso desde su niñez hasta la actualidad para representar a todo un país. Su primer videojuego será el mismo que lo lleve a la escena Olímpica. 🕹</p>
+            <p>Asimismo, nos comentó cómo fue el momento en el que se enteró que había sido seleccionado para representar a Venezuela y cómo ha sido su entrenamiento desde entonces. 👏🏻🎮</p>
+            <p>La Semana Olímpica (<a href="https://www.instagram.com/juegosolimpicos/" target="_blank">@juegosolimpicos</a>) se celebrará en Singapur del 22 al 25 de junio. Cada día se correrá una fase distinta de la competición. 👏🏻🚘</p>
+            <p>Desde aquí le deseamos el mayor de los éxitos a Carlos en este momento histórico para el Gaming en Venezuela. 🇻🇪🙌🏻</p>
         `,
         short: `
-            <h3>¡Ya comenzó el Valorant Champions Tour (VCT) y tenemos presencia Venezolana!</h3>
-            <p>Ya arranco la escena competitiva de Valorant de 2023 y para este año anunciaron varios cambios.👀👀</p>
+            <h3>¡CARLOS ÁLVAREZ REPRESENTARÁ A VENEZUELA EN LA SEMANA OLÍMPICA!</h3>
+            <p>¡Un venezolano estará en la Semana Olímpica de los E-sports! 🔥🇻🇪</p>
             <p><a id="link_notification2" href="../details/details.html">Leer más...</a>
         `
     },

@@ -89,6 +89,18 @@ linkTip2.addEventListener('click', ()=> {
     localStorage.setItem("detailedNew", string);
 });
 
+/* 3 */
+document.getElementById("tip3_description").innerHTML = gamerTips[2].short;
+document.getElementById("tip3_img").innerHTML = `<img src="${gamerTips[2].imgUrl}">`;
+
+let linkTip3 = document.getElementById("link_tip3");
+
+linkTip3.addEventListener('click', ()=> {
+    detailedNew = gamerTips[2];
+    let string = JSON.stringify(detailedNew);
+    localStorage.setItem("detailedNew", string);
+});
+
 
 // LANZAMIENTOS
 import { launches } from "./database.js";
