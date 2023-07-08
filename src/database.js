@@ -200,16 +200,21 @@ export const notifications = [
         type: "notification",
         imgUrl: './styles/assets/imgs/notification3.png',
         description: `
-            <h3>¡Gianpiero Berardinelli es el campeón de la segunda edición de la VUL!</h3>
-            <p>El venezolano que hace vida en los Estados Unidos, Gianpiero Berardinelli (<a href="https://www.instagram.com/piero8b/">@piero8b</a>), se consagró como campeón de la segunda edición de la <a href="https://www.instagram.com/vuleague_/">@vuleague_</a> en la madrugada de hoy. 👏🏻🔥</p>
-            <p>Luego de una final muy reñida contra luisbeuses, en la que se llegó a jugar todos los partidos posibles en la Grand Final, Piero se alzó con el título. 🏆⚽️</p>
-            <p>El jugador de <a href="https://www.instagram.com/vrp_esport/">@vrp_esport</a> es el actual bicampeón de la Venezuela Ultimate League, al también alzarse con el trofeo en la primera edición. 🤯🎮</p>
-            <p>¿Pudiste ver esta final? ¡Tienes los partidos en nuestro canal de <a href="https://www.twitch.tv/planetageek_">Twitch!</a>🟣🎥</p>
-            <p>¡Felicidades, <a href="https://www.instagram.com/piero8b/">@piero8b</a>! 👏🏻🏆</p>
+            <h3>¡Tenemos a los finalistas de los torneos de LOL y Valorant de LGA Play!</h3>
+            <p>Durante esta semana se dieron a conocer los finalistas de la Spiritual Rift Series (League Of Legends) y de la Spike Pro League (Valorant), torneos organizados por <a href="https://www.instagram.com/lgaplay/" target="_blank">@lgaplay</a> .✨✨</p>
+            <p>Estos torneos estan llegando a sus fases finales luego de 3 meses de competición. 🏆🏅</p>
+            <p>Los finalistas para la Spiritual Rift Serie son:</p>
+            <p>Pro 42 (<a href="https://www.instagram.com/pro42esports/" target="_blank">@pro42esports</a>)</p>
+            <p>Raijin eSports (<a href="https://www.instagram.com/raijinarena/" target="_blank">@raijinarena</a>)</p>
+            <p>Los finalistas para la Spike Pro League son:</p>
+            <p>Fusion GG (<a href="https://www.instagram.com/fusionfsgg/" target="_blank">@fusionfsgg</a>)</p>
+            <p>Caraeperros eSports (<a href="https://www.instagram.com/careperrosesports/" target="_blank">@careperrosesports</a>)</p>
+            <p>En los próximos días se dará a conocer la sede en donde se jugarán las finales. 👀👀</p>
+            <p>¡Buena suerte a los finalistas! 🇻🇪🎮</p>
         `,
         short: `
-            <h3>¡Gianpiero Berardinelli es el campeón de la segunda edición de la VUL!</h3>
-            <p>El venezolano que hace vida en los Estados Unidos, Gianpiero Berardinelli (<a href="https://www.instagram.com/piero8b/">@piero8b</a>), se consagró...</p>
+            <h3>¡Tenemos a los finalistas de los torneos de LOL y Valorant de LGA Play!</h3>
+            <p>Durante esta semana se dieron a conocer los finalistas de...</p>
             <p><a id="link_notification3" href="../details/details.html">Leer más...</a>
         `,
     }
@@ -220,7 +225,7 @@ export const us = [
         imgUrl: './styles/assets/imgs/planeta-geek-tv2.png',
         description: `
             <h3>¡Llegamos a la 3ra temporada!</h3>
-            <p>Hace tres años empezamos este proyecto en <a href="https://www.instagram.com/somoslateletuya/">@somoslateletuya</a> y al día de hoy se convirtió en mi otra gran pasión. ♥️</p>
+            <p>Hace tres años empezamos este proyecto en <a href="https://www.instagram.com/somoslateletuya/" target="_blank">@somoslateletuya</a> y al día de hoy se convirtió en mi otra gran pasión. ♥️</p>
             <p>A partir del viernes 17 de febrero aterriza la nueva temporada, y venimos con cosas muy geniales. 😎</p>
             <p>Gracias a todos los que nos han apoyado durante todo este tiempo, ¡Son la mejor comunidad de todas! 🛸</p>
             <p>Y sí, para esta tercera temporada tenemos Setup completamente nuevo, ¡La pasaremos muy bien! 🤘🏻🔥</p>
@@ -230,9 +235,32 @@ export const us = [
         imgUrl: './styles/assets/imgs/planeta-geek-radio2.png',
         description: `
             <h3>¡Estamos de vuelta a la radio!</h3>
-            <p>Arranca el 2023, desde hoy empezamos la nueva temporada de Planeta Geek Radio por <a href="https://www.instagram.com/circuitoliderfm/">@circuitoliderfm</a>.</p>
+            <p>Arranca el 2023, desde hoy empezamos la nueva temporada de Planeta Geek Radio por <a href="https://www.instagram.com/circuitoliderfm/" target="_blank">@circuitoliderfm</a>.</p>
             <p>Se extrañaba muchísimo estar aquí, hablar de videojuegos, superhéroes y de eSports. ♥️</p>
             <p>Toda la banda de Planeta Geek Radio les invita a escucharnos de lunes a viernes de 7 a.m. a 9 p.m. por la 94.9 FM en Caracas.</p>
         `
+    },
+    {
+        imgUrl: './styles/assets/imgs/aniversario1radio.png',
+        description: `
+            <h3>¡Planeta Geek Radio cumple su 1er año al aire! 🥳📻🎮</h3>
+            <p>Hace un año empezamos este viaje en <a href="https://www.instagram.com/circuitoliderfm/" target="_blank">@circuitoliderfm</a> llevándoles información, entretenimiento y mucha diversión. 😎.</p>
+            <p>Gracias a ustedes quienes han estado con nosotros día tras día escuchando el programa, ¡son los mejores! 💪🏻
+            </p>
+            <p>Y para celebrar nuestro primer aniversario, te dejamos actividades para TODO el mes de julio, visita nuestra publicación en <a href="https://www.instagram.com/p/CuPhopluJL1/" target="_blank">Instagram</a> y conócelas. 👀</p>
+        `
     }
+];
+
+export const tournaments = [
+    {
+        imgUrl: './styles/assets/imgs/torneo1.png',
+        description: `
+            <h3>¡Aquí el primer campeón del Mario Kart Tour Challenge! 🏆</h3>
+            <p>Felicidades a <a href="https://www.instagram.com/santigaldames_/" target="_blank">@santigaldames_</a> por quedarse con el primer lugar de nuestro torneo, ¡fuiste el más rápido de toda la competición!</p>
+            <p>También queremos felicitar a <a href="https://www.instagram.com/enma_112/" target="_blank">@enma_112</a> 🥈por su segundo lugar y <a href="https://www.instagram.com/fer_2205/" target="_blank">@fer_2205</a> por su tercer lugar. 🥉</p>
+            <p>Y también agradecer a lo 90 PARTICIPANTES que estuvieron desde el día 1 en el Mario Kart Tour Challenge. 🥳</p>
+            <p>Este es el primer torneo de muchos que estaremos organizando para nuestra comunidad, ¡vamos! 🎮🔥😎</p>
+        `
+    },
 ];

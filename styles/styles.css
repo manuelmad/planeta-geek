@@ -257,7 +257,7 @@ nav #dropdown-list {
     height: 100%;
 }
 
-.trends, .gamer-tips, .launches, .notifications, .us {
+.trends, .gamer-tips, .launches, .notifications, .us, .tournaments {
     background-color: var(--background-sections);
     width: 100%;
     padding: 5rem 1rem 2rem;
@@ -311,25 +311,6 @@ nav #dropdown-list {
     padding-bottom: 1rem;
 }
 
-/* .trend-1__container, .trend-2__container, .trend-3__container {
-    overflow-y: auto;
-}
-
-.trend-1__container::-webkit-scrollbar, .trend-2__container::-webkit-scrollbar, .trend-3__container::-webkit-scrollbar {
-    display: none;
-} */
-
-
-/* .trend-1 .img1-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/trend1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition-duration: 0.5s ease-in-out all;
-} */
-
 .trend-1 .img1-container {
     width: 30rem;
     height: 20rem;
@@ -350,15 +331,6 @@ nav #dropdown-list {
     /* height: 30rem; */
 }
 
-/* .trend-2 .img2-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/trend2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .trend-2 .img2-container {
     width: 30rem;
     height: 20rem;
@@ -378,15 +350,6 @@ nav #dropdown-list {
     width: 120%;
     /* height: 30rem; */
 }
-
-/* .trend-3 .img3-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/trend3.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .trend-3 .img3-container {
     width: 30rem;
@@ -470,23 +433,6 @@ nav #dropdown-list {
     padding-bottom: 1rem;
 }
 
-/* .tip-1__container, .tip-2__container {
-    overflow-y: auto;
-}
-
-.tip-1__container::-webkit-scrollbar, .tip-2__container::-webkit-scrollbar {
-    display: none;
-} */
-
-/* .tip-1 .img1-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/tip1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
-
 .tip-1 .img1-container {
     width: 30rem;
     height: 20rem;
@@ -506,15 +452,6 @@ nav #dropdown-list {
     width: 110%;
     /* height: 30rem; */
 }
-
-/* .tip-2 .img2-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/tip2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
 
 .tip-2 .img2-container {
     width: 30rem;
@@ -618,23 +555,6 @@ nav #dropdown-list {
     margin: 4rem auto 0;
     padding-bottom: 1rem;
 }
-/* 
-.launch-1__container, .launch-2__container, .launch-3__container {
-    overflow-y: auto;
-}
-
-.launch-1__container::-webkit-scrollbar, .launch-2__container::-webkit-scrollbar, .launch-3__container::-webkit-scrollbar {
-    display: none;
-} */
-
-/* .launch-1 .img1-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/launch1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .launch-1 .img1-container {
     width: 30rem;
@@ -656,15 +576,6 @@ nav #dropdown-list {
     /* height: 30rem; */
 }
 
-/* .launch-2 .img2-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/launch2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .launch-2 .img2-container {
     width: 30rem;
     height: 20rem;
@@ -684,15 +595,6 @@ nav #dropdown-list {
     width: 120%;
     /* height: 30rem; */
 }
-
-/* .launch-3 .img3-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/launch3.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .launch-3 .img3-container {
     width: 30rem;
@@ -779,23 +681,6 @@ nav #dropdown-list {
     padding-bottom: 1rem;
 }
 
-/* .notification-1__container, .notification-2__container, .notification-3__container {
-    overflow-y: auto;
-}
-
-.notification-1__container::-webkit-scrollbar, .notification-2__container::-webkit-scrollbar, .notification-3__container::-webkit-scrollbar {
-    display: none;
-} */
-
-/* .notification-1 .img1-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/notification1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .notification-1 .img1-container {
     width: 30rem;
     height: 20rem;
@@ -815,15 +700,6 @@ nav #dropdown-list {
     width: 120%;
     /* height: 30rem; */
 }
-/* 
-.notification-2 .img2-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/notification2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .notification-2 .img2-container {
     width: 30rem;
@@ -844,15 +720,6 @@ nav #dropdown-list {
     width: 120%;
     /* height: 30rem; */
 }
-
-/* .notification-3 .img3-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/notification3.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .notification-3 .img3-container {
     width: 30rem;
@@ -947,23 +814,6 @@ nav #dropdown-list {
     padding-bottom: 1rem;
 }
 
-/* .us-1__container, .us-2__container, .us-3__container {
-    overflow-y: auto;
-}
-
-.us-1__container::-webkit-scrollbar, .us-2__container::-webkit-scrollbar, .us-3__container::-webkit-scrollbar {
-    display: none;
-} */
-
-/* .us-1 .img1-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/planeta-geek-tv2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .us-1 .img1-container {
     width: 30rem;
     height: 20rem;
@@ -984,18 +834,7 @@ nav #dropdown-list {
     /* height: 30rem; */
 }
 
-
-
-/* .us-2 .img2-container {
-    width: 30rem;
-    height: 20rem;
-    background-image: url('./assets/imgs/planeta-geek-radio2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-.us-2 .img2-container {
+.us-2 .img2-container, .us-3 .img3-container {
     width: 30rem;
     height: 20rem;
     overflow: hidden;
@@ -1004,13 +843,13 @@ nav #dropdown-list {
     align-items: center;
 }
 
-.us-2 .img2-container img {
+.us-2 .img2-container img, .us-3 .img3-container img {
     width: 100%;
     /* height: 20rem; */
     transition: 0.6s ease all;
 }
 
-.us-2 .img2-container img:hover {
+.us-2 .img2-container img:hover, .us-3 .img3-container img:hover {
     width: 120%;
     /* height: 30rem; */
 }
@@ -1036,6 +875,88 @@ nav #dropdown-list {
 .us-1 a, .us-2 a, .us-3 a {
     width: 100%;
     color: var(--planeta-geek-blue);
+    text-decoration: none;
+}
+
+/* TOTNEOS */
+
+.tournaments .title-container h2 {
+    background-color: var(--planeta-geek-yellow);
+    color: var(--black);
+    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+}
+
+.tournaments .title-container h2:before {
+    top: 50;
+    left: 2.5rem;
+    display: inline-block;
+    content: "";
+    width: 0.8rem;
+    height: 6rem;
+    transform: skewX(-10deg);
+    background: var(--planeta-geek-yellow);
+    position: absolute;
+    border-right: 3px solid var(--nav-left-borders);
+}
+
+.tournaments .title-container p {
+    flex-grow: 1;
+    border-bottom: 0.3rem solid var(--planeta-geek-yellow);
+}
+
+.tournaments-1__container {
+    width: 30rem;
+    min-height: 45rem;
+    background-color: var(--background-article);
+    margin: 4rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.tournaments-1 .img1-container {
+    width: 30rem;
+    height: 20rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tournaments-1 .img1-container img {
+    width: 100%;
+    /* height: 20rem; */
+    transition: 0.6s ease all;
+}
+
+.tournaments-1 .img1-container img:hover {
+    width: 120%;
+    /* height: 30rem; */
+}
+
+.tournaments-1 h3 {
+    width: 100%;
+    color: var(--planeta-geek-yellow);
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.tournaments-1 p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.tournaments-1 a{
+    width: 100%;
+    color: var(--planeta-geek-yellow);
     text-decoration: none;
 }
 

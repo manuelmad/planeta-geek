@@ -153,7 +153,40 @@ header {
     z-index: 100000;
 }
 
-.nav-bar-container .main-menu .list-item6:after {
+/* .nav-bar-container .main-menu .list-item6:after {
+    top: 0;
+    right: -0.5rem;
+    display: inline-block;
+    content: "";
+    width: 0.9rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--background-black);
+    position: absolute;
+    border-right: 3px solid var(--nav-left-borders);
+    z-index: 100000;
+} */
+
+.nav-bar-container .main-menu .list-item7 {
+    position: relative;
+}
+
+.nav-bar-container .main-menu .list-item7:before {
+    top: 0;
+    left: -1px;
+    display: inline-block;
+    content: "";
+    width: 0.2rem;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: var(--nav-left-borders);
+    position: absolute;
+    /* border-right: 3px solid #181818; */
+    /* transition: 400ms ease; */
+    z-index: 100000;
+}
+
+.nav-bar-container .main-menu .list-item7:after {
     top: 0;
     right: -0.5rem;
     display: inline-block;
@@ -199,7 +232,7 @@ header {
     height: 64.2rem;
 }
 
-.trends, .gamer-tips, .launches, .notifications, .us {
+.trends, .gamer-tips, .launches, .notifications, .us, .tournaments {
     padding-left: 7rem;
     padding-right: 7rem;
 }
@@ -208,11 +241,11 @@ header {
 .gamer-tips .title-container h2:before,
 .launches .title-container h2:before,
 .notifications .title-container h2:before,
-.us .title-container h2:before {
+.us .title-container h2:before, .tournaments .title-container h2:before {
     left: 8.5rem;
 }
 
-.trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container {
+.trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/ {
     width: 100rem;
     grid-template-columns: 1fr 1fr 1fr;
 }

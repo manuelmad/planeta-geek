@@ -191,10 +191,21 @@ import { us } from "./database.js";
 document.getElementById("us1_description").innerHTML = us[0].description;
 document.getElementById("us1_img").innerHTML = `<img src="${us[0].imgUrl}">`;
 
-
 /* 2 */
 document.getElementById("us2_description").innerHTML = us[1].description;
 document.getElementById("us2_img").innerHTML = `<img src="${us[1].imgUrl}">`;
+
+/* 3 */
+document.getElementById("us3_description").innerHTML = us[2].description;
+document.getElementById("us3_img").innerHTML = `<img src="${us[2].imgUrl}">`;
+
+
+// TORNEOS
+import { tournaments } from "./database.js";
+
+/* 1 */
+document.getElementById("tournaments1_description").innerHTML = tournaments[0].description;
+document.getElementById("tournaments1_img").innerHTML = `<img src="${tournaments[0].imgUrl}">`;
 
 
 

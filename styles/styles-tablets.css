@@ -1,4 +1,4 @@
-.trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container {
+.trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/ {
     width: 69rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
