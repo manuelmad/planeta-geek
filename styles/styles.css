@@ -27,9 +27,11 @@ html {
     --palid-red: #FF214F;
     --vivid-red: #cf2e2e;
     --planeta-geek-yellow: #FBFA03;
+    --planeta-geek-yellow-shadow: #9a9a03;
     --planeta-geek-purple: #7E03FB;
     --purple-shadow: #5F02BC;
     --planeta-geek-green: #80FB03;
+    --planeta-geek-green-shadow: #478d01;
     --planeta-geek-blue: #0304FB;
     --planeta-geek-blue-shadow: #0203BC;
     --ss: 1.2rem;
@@ -257,7 +259,7 @@ nav #dropdown-list {
     height: 100%;
 }
 
-.trends, .gamer-tips, .launches, .notifications, .us, .tournaments {
+.trends, .gamer-tips, .launches, .notifications, .us, .tournaments, .apps {
     background-color: var(--background-sections);
     width: 100%;
     padding: 5rem 1rem 2rem;
@@ -898,7 +900,7 @@ nav #dropdown-list {
     width: 0.8rem;
     height: 6rem;
     transform: skewX(-10deg);
-    background: var(--planeta-geek-yellow);
+    background: var(--planeta-geek-yellow-shadow);
     position: absolute;
     border-right: 3px solid var(--nav-left-borders);
 }
@@ -957,6 +959,107 @@ nav #dropdown-list {
 .tournaments-1 a{
     width: 100%;
     color: var(--planeta-geek-yellow);
+    text-decoration: none;
+}
+
+/* APLICACIONES */
+
+.apps .title-container h2 {
+    background-color: var(--planeta-geek-green);
+    color: var(--black);
+    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+}
+
+.apps .title-container h2:before {
+    top: 50;
+    left: 2.5rem;
+    display: inline-block;
+    content: "";
+    width: 0.8rem;
+    height: 6rem;
+    transform: skewX(-10deg);
+    background: var(--planeta-geek-green-shadow);
+    position: absolute;
+    border-right: 3px solid var(--nav-left-borders);
+}
+
+.apps .title-container p {
+    flex-grow: 1;
+    border-bottom: 0.3rem solid var(--planeta-geek-green);
+}
+
+.apps-1__container, .apps-2__container, .apps-3__container {
+    width: 30rem;
+    min-height: 45rem;
+    background-color: var(--background-article);
+    margin: 4rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.apps-1 .img1-container, .apps-2 .img2-container {
+    width: 30rem;
+    height: 20rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid var(--background-article);
+}
+
+.apps-1 .img1-container img {
+    width: 100%;
+    transition: 0.6s ease all;
+}
+
+.apps-1 .img1-container img:hover {
+    width: 120%;
+}
+
+.apps-3 .img3-container {
+    width: 30rem;
+    height: 20rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps-2 .img2-container img, .apps-3 .img3-container img {
+    width: 100%;
+    /* height: 20rem; */
+    transition: 0.6s ease all;
+}
+
+.apps-2 .img2-container img:hover, .apps-3 .img3-container img:hover {
+    width: 120%;
+    /* height: 30rem; */
+}
+
+.apps-1 h3, .apps-2 h3, .apps-3 h3 {
+    width: 100%;
+    color: var(--planeta-geek-green);
+    margin-top: 1rem;
+    font-size: var(--lg);
+    padding: 1rem 2rem 0;
+}
+
+.apps-1 p, .apps-2 p, .apps-3 p {
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: var(--md);
+    padding: 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.apps-1 a, .apps-2 a, .apps-3 a {
+    width: 100%;
+    color: var(--planeta-geek-green);
     text-decoration: none;
 }
 

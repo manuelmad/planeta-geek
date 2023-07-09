@@ -264,3 +264,37 @@ export const tournaments = [
         `
     },
 ];
+
+export const apps = [
+    {
+        imgUrl: './styles/assets/imgs/appsorteo.png',
+        description: `
+            <h3>APLICACIÓN PARA SORTEAR GANADORES</h3>
+            <p>Una aplicación web de fácil uso para escoger un ganador entre el número de participantes que desees incluir.</p>
+            <p>Agregar tantas filas como participantes hayan en el sorteo.</p>
+            <p>Ingresa en cada fila el nombre de cada persona.</p>
+            <p>Haz clic sobre el botón "ESCOGER GANADOR"... ¡¡Listo!! La app escogerá un nombre entre los participantes y los mostrará en pantalla, junto con algunas divertidas animaciones para celebrar.</p>
+            <p><a href="https://planetageek-appsorteos.netlify.app/" target="_blank">Ir a la web app...</a></p>
+        `
+    },
+    {
+        imgUrl: './styles/assets/imgs/groups-generator-img.png',
+        description: `
+            <h3>APLICACIÓN PARA FORMAR GRUPOS DE TORNEOS</h3>
+            <p>Sube el archivo de excel donde tienes anotados los participantes del torneo. Éste debe lucir como lo indica el ejemplo que verás en el sitio web.</p>
+            <p>Una vez subido, la app te indicará cuántos participantes hay en total, y te solicitará ingresar el número de integrantes que debe tener cada grupo.</p>
+            <p>Luego de ingresar el número, haz clic sobre el botón "GENERARA GRUPOS"... ¡¡Listo!! Obtendrás la cantidad de grupos posible según el número total de participantes.</p>
+            <p><a href="https://planetageek-groups-generator.netlify.app/" target="_blank">Ir a la web app...</a></p>
+        `
+    },
+    {
+        imgUrl: './styles/assets/imgs/videogame.png',
+        description: `
+            <h3>VIDEOJUEGO DE PLANETA GEEK</h3>
+            <p>Un videojuego con temática de Planeta Geek.</p>
+            <p>Evita los obstáculos y trampas, esquiva a los enemigos, recoge las piezas faltantes de tu nave y ayuda al héroe a volver a casa sano y salvo.</p>
+            <p>Supera los 3 niveles disponibles en el juego y disfruta de la cinemática final.</p>
+            <p><a href="https://planetageek-videogame.netlify.app/" target="_blank">Ir a la web app...</a></p>
+        `
+    }
+];

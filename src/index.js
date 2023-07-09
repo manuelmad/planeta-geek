@@ -207,6 +207,21 @@ import { tournaments } from "./database.js";
 document.getElementById("tournaments1_description").innerHTML = tournaments[0].description;
 document.getElementById("tournaments1_img").innerHTML = `<img src="${tournaments[0].imgUrl}">`;
 
+// APLICACIONES
+import { apps } from "./database.js";
+
+/* 1 */
+document.getElementById("apps1_description").innerHTML = apps[0].description;
+document.getElementById("apps1_img").innerHTML = `<img src="${apps[0].imgUrl}">`;
+
+/* 2 */
+document.getElementById("apps2_description").innerHTML = apps[1].description;
+document.getElementById("apps2_img").innerHTML = `<img src="${apps[1].imgUrl}">`;
+
+/* 3 */
+document.getElementById("apps3_description").innerHTML = apps[2].description;
+document.getElementById("apps3_img").innerHTML = `<img src="${apps[2].imgUrl}">`;
+
 
 
 // DETECTAR SCROLL Y HACER CRECER EL MENÚ CUANDO BAJAMOS

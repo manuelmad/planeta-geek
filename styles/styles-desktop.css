@@ -232,7 +232,7 @@ header {
     height: 64.2rem;
 }
 
-.trends, .gamer-tips, .launches, .notifications, .us, .tournaments {
+.trends, .gamer-tips, .launches, .notifications, .us, .tournaments, .apps {
     padding-left: 7rem;
     padding-right: 7rem;
 }
@@ -241,11 +241,11 @@ header {
 .gamer-tips .title-container h2:before,
 .launches .title-container h2:before,
 .notifications .title-container h2:before,
-.us .title-container h2:before, .tournaments .title-container h2:before {
+.us .title-container h2:before, .tournaments .title-container h2:before, .apps .title-container h2:before {
     left: 8.5rem;
 }
 
-.trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/ {
+.trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/, .apps-articles__container {
     width: 100rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
