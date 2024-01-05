@@ -212,14 +212,14 @@ header {
 
 .hero {
     position: relative;
-    min-height: 64.2rem;
+    min-height: 80rem;
     z-index: 0;
 }
 
 .hero .slider-container {
     position: absolute;
     overflow-y: visible;
-    min-height: 64.2rem;
+    min-height: 80rem;
     top: -3rem;
     z-index: 1;
 }
@@ -229,7 +229,7 @@ header {
 }
 
 .hero ul, .hero li {
-    min-height: 64.2rem;
+    min-height: 80rem;
 }
 
 .trends, .gamer-tips, .launches, .notifications, .us, .tournaments, .apps {
