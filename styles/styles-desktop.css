@@ -233,8 +233,8 @@ header {
 }
 
 .trends, .gamer-tips, .launches, .notifications, .us, .tournaments, .apps {
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .trends .title-container h2:before,
@@ -242,11 +242,11 @@ header {
 .launches .title-container h2:before,
 .notifications .title-container h2:before,
 .us .title-container h2:before, .tournaments .title-container h2:before, .apps .title-container h2:before {
-    left: 8.5rem;
+    left: 6.5rem;
 }
 
 .trending-articles__container, .gamer-tips__container, .launches-articles__container, .notifications-articles__container, .us-articles__container/*, .tournaments-articles__container*/, .apps-articles__container {
-    width: 100rem;
+    width: 96rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
